@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    height: 5rem;
+}
+
+.titlebar{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title-image{
+    height: 60%;
+}
+
+.title{
+    font-size: 1rem;
+}
+.videoinput{
+    display: none;
+}
+
+.menubar{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    align-items: center;
+    height: 50%;
+}
+
+.ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu{
+    background-color: rgb(238, 238, 238);
+    position: relative;
+}
+.videoelement{
+    height: 100%;
+}
+.menu:hover{
+    background-color:lightskyblue
+}
+
+
+.menu-items{
+    display: none;
+    position: absolute;
+    top: 100%;      /* Menu ke niche */
+    left: 0;
+    background: #fff;
+    min-width: 150px;
+    padding: 5px 0;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+.v:hover{
+    background-color: lightgray
+}
+
+.menu:hover .menu-items{
+    display: block;
+}
+
+main{
+    background-color: black;
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+footer{
+    height: 3rem;
+}

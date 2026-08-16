@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLC</title>
+    <!--brwser reset-->
+    <link rel="stylesheet" href="reset.css">
+    <!--new stylin specific to this aplliction-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class ="titlebar">
+            <img src="https://imgs.search.brave.com/fAELRBVI9e-peX31pbMRuAv98Zp5JPRErvhILfuveNQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LXZsYy1wbGF5ZXIt/aWNvbi1zdmctZG93/bmxvYWQtcG5nLTcy/MjY1MS5wbmc_Zj13/ZWJwJnc9MTI4" alt="vlc logo" class="title-image">
+            <h1 class="title">VLC Media Player</h1>
+        </div>
+        </div>
+        <div class="menubar">
+            <div class="menu">
+                <div class="btn" id="videobtn">open</div>
+                <input type="file" class="videoinput" id="videoinput">
+            </div>
+            <div class="menu">Playback
+                <div class="menu-items">
+                    <ul class="ul">
+                        <li class="v" id="speedup">Speedup</li>
+                        <li class="v" id="slowdown">Slowdown</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu">Audio
+                <div class="menu-items">
+                    <ul class="ul">
+                        <li class="v" id="volumeup">Volume up</li>
+                        <li class="v" id="volumedown">Volume down</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main"></main>
+    <footer>
+
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
